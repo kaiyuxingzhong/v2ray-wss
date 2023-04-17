@@ -32,19 +32,32 @@ Shadowsocks客户端代理信息：
 卸载方法如下：
 卸载ss-libev，命令如下：
 
-systemctl stop shadowsocks
-rm /usr/bin/ss-server
-rm /etc/shadowsocks-libev/config.json
-rm /etc/systemd/system/shadowsocks.service
-systemctl daemon-reload
+`systemctl stop shadowsocks`
+
+`rm /usr/bin/ss-server`
+
+`rm /etc/shadowsocks-libev/config.json`
+
+`rm /etc/systemd/system/shadowsocks.service`
+
+`systemctl daemon-reload`
+
 
 卸载 v2ray-wss 命令如下：
 
-systemctl stop v2ray
-systemctl stop nginx
-rm /usr/local/bin/v2ray
-rm /etc/systemd/system/v2ray.service
-rm /usr/sbin/nginx
-rm -rf /etc/nginx
-rm /lib/systemd/system/nginx.service
-systemctl daemon-reload
+`systemctl stop v2ray`
+
+`systemctl stop nginx`
+
+`rm /usr/local/bin/v2ray`
+
+`rm /etc/systemd/system/v2ray.service`
+
+`rm /usr/sbin/nginx`
+
+`rm -rf /etc/nginx`
+
+`rm /lib/systemd/system/nginx.service`
+
+`systemctl daemon-reload`
+
